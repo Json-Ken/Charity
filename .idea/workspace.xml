@@ -4,18 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ce4e1ed-b5e1-4689-8f2b-c1030140e613" name="Changes" comment="" />
+    <list default="true" id="8ce4e1ed-b5e1-4689-8f2b-c1030140e613" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoCharity/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/djangoCharity/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/doindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/water.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCharity/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCharity/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCharity/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCharity/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCharity/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCharity/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoCharity/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoCharity/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/donate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -27,6 +56,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -35,6 +65,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -44,6 +75,10 @@
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="djangoCharity" type="Python.DjangoServer" factoryName="Django server">
@@ -52,6 +87,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoCharity.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -93,6 +129,47 @@
       <workItem from="1677824996909" duration="2924000" />
       <workItem from="1677828122195" duration="1229000" />
       <workItem from="1678079090887" duration="9806000" />
+      <workItem from="1678165120034" duration="8938000" />
+      <workItem from="1678250590991" duration="564000" />
+      <workItem from="1678251190646" duration="4533000" />
+      <workItem from="1678337475911" duration="1899000" />
+      <workItem from="1678339854308" duration="185000" />
+      <workItem from="1678347378298" duration="1098000" />
+      <workItem from="1678423553229" duration="150000" />
+      <workItem from="1678423724274" duration="44000" />
+      <workItem from="1678423797091" duration="36000" />
+      <workItem from="1678423847442" duration="70000" />
+      <workItem from="1678423959925" duration="158000" />
+      <workItem from="1678424176814" duration="60000" />
+      <workItem from="1678424249504" duration="18000" />
+      <workItem from="1678424327603" duration="438000" />
+      <workItem from="1678424783793" duration="43000" />
+      <workItem from="1678424870249" duration="1855000" />
+      <workItem from="1678427298431" duration="2502000" />
+      <workItem from="1678430665409" duration="381000" />
+      <workItem from="1678431069153" duration="277000" />
+      <workItem from="1678431474636" duration="149000" />
+      <workItem from="1678431648340" duration="42000" />
+      <workItem from="1678431730405" duration="32000" />
+      <workItem from="1678431818764" duration="120000" />
+      <workItem from="1678431986121" duration="263000" />
+      <workItem from="1678432336148" duration="173000" />
+      <workItem from="1678432620454" duration="273000" />
+      <workItem from="1678432915834" duration="98000" />
+      <workItem from="1678433041868" duration="156000" />
+      <workItem from="1678433220830" duration="10000" />
+      <workItem from="1678433247278" duration="25000" />
+      <workItem from="1678433316943" duration="463000" />
+      <workItem from="1678433864144" duration="141000" />
+      <workItem from="1678684363399" duration="653000" />
+      <workItem from="1678685068711" duration="47000" />
+      <workItem from="1678685231019" duration="33000" />
+      <workItem from="1678685395692" duration="3882000" />
+      <workItem from="1678689300864" duration="1310000" />
+      <workItem from="1678693145333" duration="657000" />
+      <workItem from="1678714823998" duration="21000" />
+      <workItem from="1678769498501" duration="5320000" />
+      <workItem from="1678856664032" duration="1024000" />
     </task>
     <servers />
   </component>

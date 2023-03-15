@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+        {% load static %}
+        <style>
+            p{alignment: center}
+        </style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Frequently Asked Questions | Charity Ratings | Donating Tips | Best Charities | Charity</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Charity by KJC" />
+	<meta name="keywords" content="Donate" />
+	<meta name="author" content="KJC" />
+
+<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="{% static 'favicon.ico'%}">
+
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'css/animate.css'%}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'css/icomoon.css'%}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="{% static 'css/superfish.css'%}">
+
+	<link rel="stylesheet" href="{% static 'css/style.css'%}">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+<link rel="stylesheet" href={% static "css/style.css" %}>
+    <!-- Styles -->
+
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-52232V3');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+     <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52232V3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  <div id="app">
+
+    <div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 text-left fh5co-link">
+						<a href="{% url 'my-faq'%}">FAQ</a>
+						<a href="#">Forum</a>
+						<a href="{% url 'my-contact' %}">Contact</a>
+					</div>
+					<div class="col-md-6 col-sm-6 text-right fh5co-social">
+						<a href="https://www.facebook.com/profile.php?id=100075168429960" target="_blank" class="grow"><i class="icon-facebook2"></i></a>
+						<a href="#" class="grow"><i class="icon-twitter2"></i></a>
+						<a href="#" class="grow"><i class="icon-instagram2"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<header id="fh5co-header-section" class="sticky-banner">
+			<div class="container">
+				<div class="nav-header">
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
+					<h1 id="fh5co-logo"><a href="{% url 'my-index' %}">Charity</a></h1>
+					<!-- START #fh5co-menu-wrap -->
+					<nav id="fh5co-menu-wrap" role="navigation">
+						<ul class="sf-menu" id="fh5co-primary-menu">
+							<li class="active">
+								<a href="{% url 'my-index' %}">Home</a>
+							</li>
+							<li>
+								<a href="#" class="fh5co-sub-ddown">Get Involved</a>
+								<ul class="fh5co-sub-menu">
+									<li><a href="{% url 'my-donate' %}">Donate</a></li>
+									<li><a href="#">Fundraise</a></li>
+									<li><a href="#">Campaign</a></li>
+									<li><a href="#">Philantrophy</a></li>
+									<li><a href="#">Volunteer</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="fh5co-sub-ddown">Projects</a>
+								 <ul class="fh5co-sub-menu">
+								 	<li><a href="#">Water World</a></li>
+								 	<li><a href="#">Cloth Giving</a></li>
+								 	<li><a href="#">Medical Mission</a></li>
+								</ul>
+							</li>
+							<li><a href="{% url 'my-about' %}">About</a></li>
+							<li><a href="{% url 'my-blog' %}">Blog</a></li>
+							<li><a href="{% url 'my-contact' %}">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+ <div class="container">
+      <main id="main">
+
+<div id="content-w-sidebar" class="clearfix">
+  <div id="sidebar">
+    <div id="sidebar__inner">
+
+    </div>
+  </div>
+  <div id="content">
+    <section class="section opening">
+      <div class="row">
+        <div class="col">
+          <h1 class="mb-4">Frequently Asked Questions</h1>
+          <div class="content">
+                        <div class="row mb-2" id="faq-buttons">
+              <div class="col-12 col-md-4">
+                <a href="#general-faq" class="btn btn-primary w-100 mb-2" style="margin-right: 3px;">General FAQ</a>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="#help-faq" class="btn btn-primary w-100 mb-2" style="margin-right: 3px;">Help FAQ</a>
+              </div>
+              <div class="col-12 col-md-4">
+                <a href="#charities-faq" class="btn btn-primary w-100 mb-2">Charities FAQ</a>
+              </div>
+            </div>
+                        <h2 id="general-faq">General FAQ</h2>
+
+<p><a href="#WhatsCharity"><strong>What is Charity?</strong></a></p>
+
+<p><a href="#WhyCharity"><strong>Why do I need Charity?</strong></a></p>
+
+<p><a href="#charity_info"><strong>Won’t a charity provide me with all the information I need to make an informed giving decision?</strong></a></p>
+
+<p><a href="#in-depth_analyses"><strong>Why is Charity’s information an indispensable tool for informed donors?</strong></a></p>
+
+<p><a href="#join_Charity"><strong>How can I join Charity?</strong></a></p>
+
+<p><a href="#Charity_funding"><strong>Who funds Charity?</strong></a></p>
+
+<p><a href="#privacy"><strong>Does Charity sell, rent, or exchange its members’ names and contact information with other organizations or businesses?</strong></a></p>
+
+<p><a href="#charity_selection"><strong>How does Charity decide which organizations to evaluate and rate?</strong></a></p>
+
+<p><a href="#rating_update"><strong>How often does Charity update a charity's rating and other information?</strong></a></p>
+
+<p><a href="#rating_guide"><strong>What is the benefit of receiving Charity's print publication, the <em>Charity Rating Guide Report</em>?</strong></a></p>
+
+<p><a href="#donor_funded"><strong>How is Charity Funded?</strong></a></p>
+
+<div id="WhatsCharity" class="anchor"></div><p><b><br></b></p><p><b>What is Charity?</b></p><p>The&nbsp;<span style="letter-spacing: 0.2px;">  Charity, is <a href="https://www.charity.org/charity-donating-articles/welcome-to-charity" target="_blank">a nonprofit charity  and rating organization</a> founded in 2020 and based in Homabay. We analyze charity audited financial statements, tax filings, state solicitation filings, privacy policies, and other information and <a href="https://www.charity.org/our-charity-rating-process" target="_blank">rate charities</a> on an "A+" to "F" rating scale. We also regularly <a href="https://www.charity.org/about-charity/in-the-news" target="_blank">partner with investigative journalists</a> on the financial aspects of their reporting on charities and the nonprofit sector. Charity's mission is to help donors make more informed giving decisions while avoiding charity frauds and scams.&nbsp;</span></p><p><span style="letter-spacing: 0.2px;"><br></span></p><div id="WhyCharity" class="anchor"></div><p><strong>Why do I need Charity?</strong><br>
+Because your charitable dollars are too precious to waste on organizations that do not spend your money wisely. Charity is not afraid to take a strong stand about the <a href="https://www.charity.org/charity-donating-articles/charity-hall-of-shame" target="_blank">practices of specific charities </a>and provide information that some charities would rather not disclose. Charity carefully reviews each charity’s financial records, cross-checking information from state and federal government filings. The financial picture we provide is often quite different from other sources of charity information that are less stringent, or simply repeat information reported by the charity in its tax form, rather than conducting a thorough and independent review. Charity provides you with the important knowledge that will help you make funding decisions with greater confidence.</p>
+
+<p><strong><a id="charity_info" name="charity_info"></a></strong><br></p><div id="charity_info" class="anchor"></div><p><strong>Won’t a charity provide me with all the information I need to make an informed giving decision?</strong><br>
+A charity that wants your donation has little incentive to criticize itself. It may choose not to reveal true but unflattering information about itself. Also, the financial information that charities are willing to make easily available to donors is often unclear and incomplete. You need an independent  that can objectively analyze a charity’s finances and management practices.</p>
+
+<p><strong><a id="in-depth_analyses" name="in-depth_analyses"></a></strong><br></p><div id="in-depth_analyses" class="anchor"></div><p><strong>Why is Charity’s information an indispensable tool for informed donors?</strong><br>
+Charity <a href="https://www.charity.org/our-charity-rating-process#how-grades-are-calculated" target="_blank">assigns letter grade ratings</a> and provides other statistics on the financial performance of more than&nbsp;<a href="/charities" target="_blank">50 major Kenya charities</a>. These are organized by category, including <em><a href="https://www.charity.org/top-rated-charities/animals" target="_blank">Animals</a></em><a href="https://www.charity.org/top-rated-charities/animals" target="_blank">,</a> <em><a href="https://www.charity.org/top-rated-charities/environment-climate-change" target="_blank">Environment</a>, <a href="https://www.charity.org/top-rated-charities/cancer" target="_blank">Cancer</a>, <a href="https://www.charity.org/top-rated-charities/child-protection-sponsorship" target="_blank">Child Protection &amp; Sponsorship</a>,</em>&nbsp;<i><a href="https://www.charity.org/top-rated-charities/civil-rights-social-justice" target="_blank">Civil Rights &amp; Social Justice</a></i>, <i><a href="https://www.charity.org/top-rated-charities/veterans-military" target="_blank">Veterans &amp; Military</a></i>, and more. Rather than simply repeating information gleaned from tax filings or offered by the charities themselves, Charity conducts in-depth analyses of audited financial statements, annual reports, IRS Form 990 tax filings and other data to give you a clear picture of how a charitable organization <a href="https://www.charity.org/our-charity-rating-process#how-grades-are-calculated" target="_blank">actually uses its funding</a>. We provide information on the percentage of funds each charity spends on its charitable purpose, its cost to raise Ksh.100,000, whether it <a href="https://www.charity.org/our-charity-rating-process#high-assets" target="_blank">holds massive asset reserves</a>, and an overall letter grade rating ranging from “A+” to “F.” Before you send a donation to a specific charity, you can now consider how well it spends your dollars on the programs you intend to support.</p>
+
+<p><strong><a id="join_Charity" name="join_Charity"></a></strong><br></p><div id="join_Charity" class="anchor"></div><p><strong>How can I support Charity?</strong><br>Contributions in any amount are appreciated and help fund our research into wrongdoing within the nonprofit sector, our analysis of charities' financial activities, and the free research and financial analysis we provide to investigative journalists. </p><p><a href="https://www.charity.org/membership" target="_blank"></a><a href="https://www.charity.org/foundation" target="_blank" style="background-color: rgb(255, 255, 255); letter-spacing: 0.2px;"><span style="font-weight: bolder;">Foundation Donors</span></a><b><br></b></p><p><a href="https://www.charity.org/membership" target="_blank"><b>Individual Donors</b></a></p><p><a href="https://www.charity.org/corporate" target="_blank"><b>Corporate Donors</b></a></p><p><br></p><div id="Charity_funding" class="anchor"></div><p><strong>Who funds Charity?</strong><br>
+Charity is funded by people just like you—not charities, industry insiders, charity trade associations, advertisers, or special interests. Charity depends on the support of individuals like you to continue our important work. Charity is a 501(c)(3) public charity.&nbsp;Donations are tax-deductible as permitted by law.&nbsp;<a href="https://www.charity.org/foundation" target="_blank" style="letter-spacing: 0.2px; background-color: rgb(255, 255, 255);"><span style="font-weight: bolder;">Foundation Donors</span></a>&nbsp;--&nbsp;<a href="https://www.charity.org/membership" target="_blank" style="letter-spacing: 0.2px; background-color: rgb(255, 255, 255);"><span style="font-weight: bolder;">Individual Donors</span></a>&nbsp;--&nbsp;<a href="https://www.charity.org/corporate" target="_blank" style="letter-spacing: 0.2px; background-color: rgb(255, 255, 255);"><span style="font-weight: bolder;">Corporate Donors</span></a></p>
+
+<p><strong><a id="privacy" name="privacy"></a></strong><br></p><div id="privacy" class="anchor"></div><p><strong>Does Charity sell, rent, or exchange its donors’ names and contact information with other organizations or businesses?</strong><br>
+No. Charity has never sold, rented, or exchanged information about its donors and has no plans to do so.</p>
+
+<p><strong><a id="charity_selection" name="charity_selection"></a></strong><br></p><div id="charity_selection" class="anchor"></div><p><strong>How does Charity decide which organizations to evaluate and rate?<br></strong>
+At Charity we focus on quality over quantity. The in-depth level of analysis we perform as part of our charity evaluations is time-intensive and does limit the number of groups we are able to review. Currently, Charity rates over 600 charities. We generally focus on evaluating large charities that receive Ksh.1 million or more of public support annually, are of interest to donors nationally, and have been in existence for at least three years. As a charity organization, our charity selection process is donor-driven. We strive to cover many of the groups that members of the public are most interested in. As a charity organization we prioritize ratings of charities that spend a significant portion of their budgets on fundraising and other overhead, and those that conduct substantial amounts of direct mail and/or telemarketing fundraising since these are the charities donors most often ask about. </p><p>Charity does not accept requests from charities that ask to be rated, nor do we charge charities to be listed in our publication or website, or for the right to publicize their ratings. Charity does not report on churches, synagogues, mosques, political action committees (PACs), fraternal clubs, colleges, or local institutions such as hospitals and museums. Charity <em>does</em> report on the separate human and social welfare organizations of religious groups, such as the <a href="https://www.charity.org/charity-donating-articles/should-i-donate-to-the-salvation-army" target="_blank">Salvation Army</a>, <a href="https://www.charity.org/charity-donating-articles/charity-rating-of-red-cloud-indian-school" target="_blank">Red Cloud Indian School,</a> and others. </p><p>The current list of organizations rated by Charity can be found <a href="/charities" target="_blank">here</a>. </p><p>Our Top-Rated charities list can be found <a href="https://www.charity.org/top-rated-charities" target="_blank">here:</a></p>
+
+<p><strong><a id="rating_update" name="rating_update"></a></strong><br></p><div id="rating_update" class="anchor"></div><p><strong>How often does Charity update a charity’s rating and other information?<br></strong>
+General information about a charity is updated on <a href="/home" target="_blank">charity.org</a> as we become aware of a change. This includes changes to a charity's name, address, website, phone number, or names a charity uses to solicit potential donors. Rating, governance, and salary information for a charity is generally analyzed and updated by Charity every other fiscal year. Charities whose letter grade ratings are prone to significant fluctuations, charities with a history of governance issues, and charities with high assets, are typically updated every fiscal year. Charity tax forms and audited financial statements are not available to the public or for CharityWatch to review immediately upon the end of a charity's fiscal year. There is a time lag between a charity's fiscal year-end and when its financial information becomes available to the public. For example, tax forms and audits containing one- to two-year-old financial information are typically the most current documents available. Charity obtains these documents directly from charities and government sources on a continuous basis as they become available then performs an in-depth analysis. See the&nbsp;<a href="/our-charity-rating-process" target="_blank" style="background-color: rgb(255, 255, 255); letter-spacing: 0.2px;"><span style="font-weight: bolder;">Our Process</span></a>&nbsp;page for additional information.</p>
+
+<p><strong><a id="rating_guide" name="rating_guide"></a></strong><br></p><div id="rating_guide" class="anchor"></div><p><strong>What is the benefit of receiving Charity's print publication, the&nbsp;<em>Charity Rating Guide Report</em>?<br></strong>
+The <em>Charity Rating Guide  Report</em> provides more limited information than is available on charity.org. Charity is happy to provide a print copy of our publication, the <em>Charity Rating Guide Report</em>, to current donors with limited or no Internet access, to libraries, or to donors who prefer reading a print publication. The&nbsp;<em>Guide</em>&nbsp;print publication is published twice per year and contains Charity's most updated information as of the time of publication.</p>
+
+<p>Charities in the <em>Guide</em> are organized by category, and Charity provides the following information for each, if applicable: Name; an "open/closed book" transparency benchmark; contact phone number; program and fundraising efficiency percentages; a letter grade rating; the top three salaries range at the charity; and symbols that indicate whether a charity: fails to meet C's privacy policy benchmark; or is organized as a nonprofit unable to accept tax-deductible contributions. The&nbsp;<em>Guide</em> contains charts listing charities whose ratings have been downgraded due to high assets, a list of charity compensation packages of Ksh.1 million or more (at any of the more than 600 charities rated by Charity), and select <a href="https://www.charity.org/charity-donating-articles" target="_blank">articles</a> from <a href="/home">charity.org</a>.</p>
+
+<p><a href="/home">Charity.org</a> contains the above information in a searchable format, along with more extensive and up-to-date information on the charities we rate than can be offered in the&nbsp;<em>Guide</em>&nbsp;print publication since Charity's website is updated on a continuous basis rather than twice per year, and is not limited by the space constraints of a print publication.</p>
+
+<p><strong><a id="donor_funded" name="donor_funded"></a></strong><br></p><div id="donor_funded" class="anchor"></div><p><strong>How is Charity Funded?<br></strong>
+We fund our in-depth research on charities with modest donations from the general public. We feel that this is a very small price to pay to receive objective and independent ratings that are untarnished by special interests. We are a nonprofit organization with over 95% of our revenue coming from small contributions from individual members of the public. We do not charge the charities we rate to be listed in our print publication or website, nor do we charge charities for the right to publicize their Charity ratings. Relying on small contributions from the general public allows us to be fiercely independent, which is critical for any  organization. We hope our information will help you with your charitable giving decisions and that you will <a href="https://www.charity.org/membership" target="_blank">help support our research</a>. We are counting on you!&nbsp;</p>&nbsp; &nbsp;<div id="Help_FAQ" class="anchor"></div>
+
+<h2 id="Help-faq"><div id="Help_FAQ" class="anchor"></div><div id="help-faq" class="anchor"></div><div id="help" class="anchor"></div>Help FAQ<br></h2>
+
+<p><a href="#HowdoIlogin"><strong>How do I login to Charity’s website?</strong></a></p>
+
+<p><a href="#HowdoIbecome"><strong>How do I become a Charity supporter?</strong></a></p>
+
+<p><a href="#What_additional_information"><strong>What additional information do I have access to once I log in?</strong></a></p>
+
+<p><a href="#HowdoIknow"><strong>How do I know when my Charity account expires?</strong></a></p>
+
+<p><a href="#Iforgotmyusername"><strong>I forgot my username and/or password. What do I do?</strong></a></p>
+
+<p><a href="#Obtain_receipt"><strong>How do I obtain a receipt or confirmation e-mail for my membership contribution?</strong></a></p>
+
+<p><a href="#library_access"><strong>How do I obtain access to Charity's full website for my library?</strong></a></p>
+
+<p><a href="#no_internet_access"><strong>What does a Charity account include if I do not have Internet access?</strong></a></p>
+
+<p><strong><a id="HowdoIlogin" name="HowdoIlogin"></a></strong><br></p><div id="HowdoIlogin" class="anchor"></div><p><strong>How do I login to Charity’s website?<br></strong>
+Type your username and password into the fields provided on the <a href="/login" target="_blank">Login</a> page to access your account. If you are a Charity supporter but have never logged in to our website, please visit our <a href="/claim" target="_blank">Claim code page</a> for instructions on setting up your account. If you do not yet have a Charity account, you can <a href="https://www.charity.org/membership" target="_blank">set up a free or paid account here</a>, then follow the instructions in your donation receipt to login to your account.</p>
+
+<p><strong><a id="HowdoIbecome" name="HowdoIbecome"></a></strong><br></p><div id="HowdoIbecome" class="anchor"></div><p><strong>How do I become a Charity Supporter?<br></strong>
+Contributions of $75 or more help to ensure that Charity can continue operating, and support our financial analysis, charity ratings, investigative work, and the help we provide to journalists. Please visit our <a href="https://www.charitywatch.org/membership" target="_blank">Join</a> page and then follow the instructions in your donation receipt to login to your account and/or sign up to receive our paper publication, the <i>Charity Rating Guide  Report</i>.&nbsp;</p>
+
+<p><strong><a id="What_additional_information" name="What_additional_information"></a></strong><br></p><div id="What_additional_information" class="anchor"></div><p><strong>What additional information do I have access to once I log in?<br></strong>As a Charity supporter, once logged in you will have unrestricted access to the ratings, governance benchmarks, salaries data, and analysts notes for all of the over 600 charities rated by Charity, as well as our chart of <a href="/high-asset-charities" target="_blank">High Asset</a> charities.&nbsp;</p>
+
+<p><strong><a id="HowdoIknow" name="HowdoIknow"></a></strong><br></p><div id="HowdoIknow" class="anchor"></div><p><strong>How do I know when my Charity account expires?<br></strong>
+<a href="/login" target="_blank">Login</a> to your account to check the status of your account using your username and password. If you are a Charity supporter who has never logged in to our website, please visit our <a href="/claim" target="_blank">Claim code page</a> for instructions on setting up your account. Once set up, you may log-in and view your account expiration date.</p>
+
+<p><strong><a id="Iforgotmyusername" name="Iforgotmyusername"></a></strong><br></p><div id="Iforgotmyusername" class="anchor"></div><p><strong>I forgot my username and/or password. What do I do?<br></strong>
+Your username is the e-mail address you used when you set up your online account. If you know your username but forgot your password, you may reset your password yourself on the <a href="/login" target="_blank">Login page</a>.&nbsp;</p>
+
+<p>If you forgot both your username and your password, please <a href="/contact" target="_blank">Contact Charity</a> for assistance.</p>
+
+<p><strong><a id="Obtain_receipt" name="Obtain_receipt"></a></strong><br></p><div id="Obtain_receipt" class="anchor"></div><p><strong>How do I obtain a receipt or confirmation e-mail for my contribution?<br></strong>
+If you donated online through charity.org, you will automatically receive an email receipt for your donation which you may use for tax purposes. It will also contain instructions for creating your account if you are a new supporter. The confirmation email may take several minutes to reach your inbox. If you do not receive it, please check your “bulk mail” or “spam mail” folder.&nbsp;</p>
+
+<p>If you donated via paper check, Charity will send you a hardcopy donation receipt via Kenya. Postal mail. These receipts are processed and mailed twice per year, so please allow several months to receive your receipt. If you require a receipt sooner, please <a href="/contact" target="_blank">Contact</a> us.</p>
+
+<p><strong><a id="library_access" name="library_access"></a></strong><br></p><div id="library_access" class="anchor"></div><p><strong>How do I obtain access to Charity's full website for my library?<br></strong>
+Charity regrets that we are unable to provide online access to restricted areas of our site to libraries at this time. However, we make our print publication, the <em>Charity Rating Guide  Report (Guide)</em>, available to our valued library Members. To obtain the <em style="">Guide</em> for your library, please become a supporter by mailing a check payable to Charity in the amount of Ksh.10,000 to:</p>
+
+&nbsp;
+
+<p>Charity</p>
+
+<p>Attn: Membership</p>
+
+<p>PO Box 578460</p>
+
+<p>Muthithi, Nairobi</p>
+
+<p><strong><a id="no_internet_access" name="no_internet_access"></a></strong><br></p><div id="no_internet_access" class="anchor"></div><p><strong>What does a Charity account include if I do not have Internet access?<br></strong>
+Some of our valued supporters do not have reliable access to the Internet. We make our print publication, the <em>Charity Rating Guide  Report (Guide)</em>, available to our valued supporters who lack reliable Internet access or who prefer to read a print publication.</p>
+
+<p>To receive the&nbsp;<em style="">Guide </em>print publication, please become a supporter by mailing a check payable to Charity in the amount of Ksh.10,000 to:</p>
+
+<p><br>
+Charity</p>
+
+<p>Attn: Membership</p>
+
+<p>PO Box 578460</p>
+
+<p>Muthithi, Nairobi</p>
+
+&nbsp;
+
+<p>Your account includes two issues of the&nbsp;<em>Guide</em>&nbsp;<span style="letter-spacing: 0.2px;">print publication</span><span style="letter-spacing: 0.2px;">, published in the Spring/Summer (June/July) and again in the Winter (November/December). Please allow up to six weeks to receive your first </span><em style="letter-spacing: 0.2px;">Guide. </em><span style="letter-spacing: 0.2px;">Charities in the </span><em style="letter-spacing: 0.2px;">Guide</em><span style="letter-spacing: 0.2px;"> are organized by category, and Charity provides the following information for each, if applicable: Name; an "open/closed book" transparency benchmark; contact phone number; program and fundraising efficiency percentages; a letter grade rating; the top three salaries range at the charity;&nbsp;</span><span style="letter-spacing: 0.2px;">and symbols that indicate whether a charity:&nbsp;</span><span style="letter-spacing: 0.2px;">fails to&nbsp;</span><span style="letter-spacing: 0.2px;">meet C's privacy policy benchmark; or is organized as a nonprofit unable to accept tax-deductible contributions</span><span style="letter-spacing: 0.2px;">. The&nbsp;</span><em style="letter-spacing: 0.2px;">Guide</em><span style="letter-spacing: 0.2px;"> contains charts listing charities whose ratings have been downgraded due to high assets, a chart of charity compensation packages of $1 million or more, and select articles from </span><a href="/home" style="letter-spacing: 0.2px; background-color: rgb(255, 255, 255);">charity.org</a><span style="letter-spacing: 0.2px;">.</span></p>&nbsp; &nbsp;<div id="Charities_FAQ" class="anchor"></div>
+
+<h2 id="Charities-faq"><div id="Charities_FAQ" class="anchor"></div><div id="charities-faq" class="anchor"></div><div id="charities" class="anchor"></div>Charities FAQ<br></h2>
+
+<p><a href="#HowdoIapply"><strong>How do I apply to have my charity rated by Charity?</strong></a></p>
+
+
+<p><a href="#HowdoesCharitydecide"><strong>How does Charity decide which charities to rate?</strong></a></p>
+
+<p><a href="#Update_how_often"><strong>How often does Charity update a charity’s rating and other information?</strong></a></p>
+
+<p><a href="#How_request_update"><strong>How do I request an update of my organization's rating?</strong></a></p>
+
+<p><a href="#How_view_my_organization"><strong>How do I view my organization's rating information online on Charity's website?</strong></a></p>
+
+<p><a href="#HowdoIunderstand"><strong>How do I understand how Charity calculated my organization's letter grade rating? Why are Charity's calculations different from those of my organization?</strong></a></p>
+
+<p><a href="#my_charity_publishes"><strong>My charity publishes more than one set of audited financial statements. How do I know which audit must be posted on my charity's website to meet Charity's Audit Accessibility benchmark?</strong></a></p>
+
+<p><a href="#achieve_top-rated_status"><strong>My charity is not Top-Rated by Charity. How can my charity achieve Top-Rated status?</strong></a></p>
+
+<p><a href="#How_obtain_toprated_seal"><strong>My charity is Top-Rated by Charity. How do I obtain a copy of the Top-Rated Seal to use in my charity's promotional materials and website? Does Charity charge charities to use its Seal?</strong></a></p>
+
+<p><strong><a id="HowdoIapply" name="HowdoIapply"></a></strong><br></p><div id="HowdoIapply" class="anchor"></div><p><strong>How do I apply to have my charity rated by Charity?<br></strong>
+Charity is a watchdog organization, not a listing service or promotional site for charities. Charities cannot apply to be rated by Charity.</p>
+
+<p><strong><a id="HowdoesCharitydecide" name="HowdoesCharitydecide"></a></strong><br></p><div id="HowdoesCharitydecide" class="anchor"></div><p><strong>How does Charity decide which charities to rate?<br></strong>
+The in-depth level of analysis required for our charity evaluations is time-intensive and does limit the number of groups we are able to review. We add between 15 to 20 charities per year to our list of rated charities. Currently, Charity rates over 600 charities.</p>
+
+<p>We generally focus on evaluating large charities that receive $1 million or more of public support annually, are of interest to donors nationally, and have been in existence for at least three years. As a charity organization, our charity selection process is donor-driven. We strive to cover many of the groups that Charity members are most interested in. Charity does not accept requests from charities that ask to be rated, nor do we charge charities to be listed in our publication or website, or for the right to publicize their ratings.</p>
+
+<p>Charity does not report on churches, synagogues, mosques, political action committees (PACs), fraternal clubs, colleges, or local institutions such as hospitals and museums. Charity <em>does</em> report on the separate human and social welfare organizations of religious groups. The current list of organizations rated by Charity can be found <a href="/charities" target="_blank">here</a>.</p>
+
+<div id="Update_how_often" class="anchor"></div><p><strong><br></strong></p><p><strong>How often does Charity update a charity’s rating and other information?<br></strong><span style="letter-spacing: 0.2px;">General information about a charity is updated on </span><a href="/home" style="background-color: rgb(255, 255, 255); letter-spacing: 0.2px;">charity.org</a><span style="letter-spacing: 0.2px;"> as we become aware of a change. This includes changes to a charity's name, address, website, phone number, or names a charity uses to solicit potential donors. Rating, governance, and salary information for a charity is generally analyzed and updated by Charity every other fiscal year. Charity tax forms and audited financial statements are not available to the public or for CharityWatch to review immediately upon the end of a charity's fiscal year. Charity obtains these documents directly from charities and government sources on a continuous basis as they become available. An analyst then performs a preliminary assessment to determine if a charity's rating will change significantly based on its newer financial reporting, then prioritizes it for update. Charities whose letter grade ratings are prone to significant fluctuations, charities with a history of governance issues, and charities with high assets, are typically updated every fiscal year, rather than every other fiscal year.</span></p>
+
+<p><strong><a id="How_request_update" name="How_request_update"></a></strong><br>
+<strong>How do I request an update of my organization's rating?</strong><br>
+Charity (C) typically updates a charity's rating every other fiscal year. We make exceptions and update ratings more frequently when we are aware that an update will result in a significant grade change. Updates of ratings that will not change significantly are typically de-prioritized and deferred to the following fiscal year.&nbsp;</p>
+
+<p>Please review <a href="/our-charity-rating-process" target="_blank"><b>Our Process</b></a> for information about factors that impact C's ratings. If you are a Controller, CFO, or other charity official who believes Charity's rating of your organization will change significantly based on our evaluation of more current financial information, please contact us to request an update. Due to the expertise and extensive time required to thoroughly respond, CW will only respond to detailed inquiries submitted by an official within the accounting or finance department with expertise in the financial reporting of your organization.</p>
+
+<p>Requests should be e-mailed to <a href="/cdn-cgi/l/email-protection#aacbc3dac7cbc3c6eac9c2cbd8c3ded3ddcbdec9c284c5d8cd"><span class="__cf_email__" data-cfemail="f5939c9b949b969c949986b5969d94879c818c829481969ddb9a8792">[email&#160;protected]</span></a> with “Rating Update Request” in the subject line to help us direct your inquiry to the appropriate staff member. Requests should include a brief explanation as to where improvements in spending efficiency have been made relative to the fiscal year currently rated by Charity. Visit Financial Documents in the Ratings &amp; Metrics section for your charity to view the documents CW uses to rate your organization, and send a complete copy of all of these documents with your rating update request.&nbsp;&nbsp;&nbsp;<br>
+<br>
+When we receive your written request, one of our analysts will perform a preliminary assessment to determine whether or not your organization's grade will actually change significantly. If yes, most often we will then complete a full analysis and prioritize your organization's rating accordingly. Due to the time-intensive nature related to processing rating update requests, please allow several weeks for a response.</p>
+
+<p><strong><a id="How_view_my_organization" name="How_view_my_organization"></a></strong><br>
+<strong>How do I view my organization's rating information online on Charity's website?</strong><br>
+If your charity is <a href="/top-rated-charities" target="_blank">Top-Rated</a> by Charity, its rating information is typically viewable on our website without logging-in. If your charity is not Top-Rated, you typically must be logged in to view your charity's rating information. We do not charge a charity for information about its rating. If you would like information about only your organization's current letter grade rating, please use our <a href="/contact" target="_blank">Contact page</a> to email your request and we will respond via email. If you instead would like access to your organization's rating information online, along with all of the charity ratings and other information on Charity's site, you may <a href="/join" target="_blank">become a Member</a>. Charities receive the same Membership as any other donor who becomes a Member of Charity.</p>
+
+<p><strong><a id="HowdoIunderstand" name="HowdoIunderstand"></a></strong><br>
+<strong>How do I understand how Charity calculated my organization's letter grade rating? Why are Charity's calculations different from those of my organization?</strong><br>
+Charity's ratings are based on a thorough analysis of a charity's tax forms, audited financial statements, and annual reports. Certain adjustments may be made to reported figures in the process of Charity's in-depth evaluation of an organization's financial activities. For more information, please refer to the&nbsp;<a href="/our-charity-rating-process" target="_blank" style="background-color: rgb(255, 255, 255); letter-spacing: 0.2px;"><span style="font-weight: bolder;">Our Process</span></a>&nbsp;section of our website.</p>
+
+<p>If after reading&nbsp;<span style="letter-spacing: 0.2px;">Charity's</span><span style="letter-spacing: 0.2px;">&nbsp;rating criteria your organization has more detailed questions as to how your group's current rating was calculated, you may forward a written inquiry from a manager within your organization's accounting or finance department that details your specific questions to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d3b5babdb2bdb0bab2bfa093b0bbb2a1baa7aaa4b2a7b0bbfdbca1b4">[email&#160;protected]</a>, or via Kenya. Mail to:</span></p>
+
+&nbsp;
+
+<p>Charity</p>
+
+<p>Attn: Analyst</p>
+
+<p>PO Box 578460</p>
+
+<p>Muthithi Rd, Nairobi</p>
+
+&nbsp;
+
+<p>Due to the expertise and extensive time required to thoroughly respond, C will only respond to detailed inquiries submitted by an official within the accounting or finance department with expertise in the financial reporting of your organization. This requirement also prevents multiple inquiries from different individuals within the same charity. We regret that we cannot respond to inquiries from all individuals/departments.</p>
+
+<p><a id="my_charity_publishes" name="my_charity_publishes"></a><br>
+<strong>My charity publishes more than one set of audited financial statements. How do I know which audit must be posted on my charity's website to meet Charity's Audit Accessibility benchmark?</strong><br>
+Charity analyzes a charity’s audited financial statements during our evaluations. By requiring charities to post a complete copy of their audited financial statements on their public websites as a condition of meeting our transparency benchmarks, Charity hopes to encourage more charities to make their audits publicly available. To view the documents Charity analyzes to compute your charity’s rating, navigate to Financial Documents in your charity’s Ratings &amp; Metrics section on charity.org. A charity that posts on its website the audit document listed in this section will meet Charity’s Audit Accessibility benchmark. If your charity is not currently Top-Rated, you may need to be logged into the site to view complete information. See the FAQ<a href="#How_view_my_organization"> “How do I view my organization’s rating information online?”</a> for more information.</p>
+
+<p>Many of the nonprofits rated by&nbsp;Charity&nbsp;are single-entity organizations that publish one audit and one tax form. However, other organizations are more complex and publish combined or consolidated audited financial statements that may include a national office, local affiliates, and/or several related organizations. Whenever practicable,&nbsp;Charity&nbsp;obtains consolidated/combined audited financial statements that include all of a charity's entities. Such an audit eliminates related party transactions among related groups, and allows us to determine how efficiently an organization is operating on the whole. Charity&nbsp;issues separate ratings for 501(c)4 organizations, even when such groups are included in a charity's consolidated/combined audit, due to the different tax treatment of these groups. See our sections on <a href="/our-charity-rating-process#related-organizations" target="_blank">Treatment of Related Organizations</a> and the <a href="/our-charity-rating-process#transparency_benchmark" target="_blank">Governance &amp; Transparency</a>&nbsp;sections of the&nbsp;<a href="/our-charity-rating-process" target="_blank" style="background-color: rgb(255, 255, 255); letter-spacing: 0.2px;"><span style="font-weight: bolder;">Our Process</span></a>&nbsp;page for more information.&nbsp;</p>
+
+<p>If after reviewing this information your organization still has questions about meeting the Audit Accessibility benchmark, please contact us at <a href="/cdn-cgi/l/email-protection#75131c1b141b161c14190635161d14071c010c021401161d5b1a0712"><span class="__cf_email__" data-cfemail="690f000708070a0008051a290a01081b001d101e081d0a0147061b0e">[email&#160;protected]</span></a>.</p>
+
+<p><strong><a id="achieve_top-rated_status" name="achieve_top-rated_status"></a></strong><br>
+<strong>My charity is not Top-Rated by Charity. How can my charity achieve Top-Rated status?</strong></p>
+
+<p><strong>Top-Rated Status:</strong> Indicates whether or not a charity is Top-Rated by Charity. See the <a href="/top-rated-charities" target="_blank">Top-Rated page</a> for a list of highly efficient charities and for an overview the benchmarks a charity must meet to receive Top-Rated status. Specific criteria include:</p>
+
+<p>a.&nbsp; A charity must earn a grade of B+ or higher, as calculated by Charity, for the financial year rated. See the section on <a href="/our-charity-rating-process#how-grades-are-calculated" target="_blank">How Grades are Calculated</a> for more specific information.</p>
+
+<p>b.&nbsp; A charity must not hold excessive assets in reserve. See the section on <a href="/our-charity-rating-process#high-assets" target="_blank">Treatment of High Assets</a> and Charity’s <a href="/high-asset-charities" target="_blank">list of High Asset Charities</a> for more specific information.</p>
+
+<p>c.&nbsp; A charity must meet Charity’s Transparency benchmarks. A charity must post a complete copy of its most current, independent audited financial statements on its public website. It must also provide complete copies of its IRS tax form(s) 990 to CharityWatch upon request, and may be required to answer questions related to its financial reporting and/or provide additional documentation if such information is necessary for CharityWatch to complete a meaningful evaluation. See the <a href="/our-charity-rating-process#transparency_benchmark" target="_blank">Transparency Benchmark</a> section of the&nbsp;<a href="/our-charity-rating-process" target="_blank" style="background-color: rgb(255, 255, 255); letter-spacing: 0.2px;"><span style="font-weight: bolder;">Our Process</span></a>&nbsp;page for more specific information.</p>
+
+<p>d.&nbsp; A charity must meet Charity’s Governance benchmarks. Charity reviews a charity's tax form to see if it reports having certain policies in place, a sufficiently large and independent governing body, and other basic governance information that serve as standard benchmarks for large charities of national scope or interest. To be eligible for Top-Rated status, charities must pass all nine benchmarks, and, in addition, CharityWatch must not be aware of any serious governance issues at the charity that would cause it to fail our overall standards for good governance. See the <a href="/our-charity-rating-process#governance_benchmarks" target="_blank">Governance Benchmarks</a> section of the&nbsp;<a href="/our-charity-rating-process" target="_blank" style="background-color: rgb(255, 255, 255); letter-spacing: 0.2px;"><span style="font-weight: bolder;">Our Process</span></a>&nbsp;page for more specific information.</p>
+
+<p><strong><a id="How_obtain_toprated_seal" name="How_obtain_toprated_seal"></a></strong><br>
+<strong>My charity is Top-Rated by Charity. How do I obtain a copy of the Top-Rated Seal to use in my charity's promotional materials and website? Does Charity charge charities to use its Seal?</strong><br>
+Charity believes it is a conflict of interest to charge a charity it reviews to promote its rating. Charities that qualify to use the Seal may do so free of charge. Please visit our <a href="/top-rated-charities" target="_blank">Top-Rated page</a> to see if your charity is Top-Rated. If so, you may use the Top-Rated Seal to promote your organization's rating subject to the <a href="/privacy-tos#Terms_Seal" target="_blank">Top-Rated Seal Terms of Use</a><a href="/about-charitywatch/policies-terms-of-use/3113/3165">.</a></p>
+
+<p>If you already have a username and password to login to the Top-Rated Seal page, please <a href="/topratedseal" target="_blank">Login</a> to access image files and instructions for using the Seal.</p>
+
+<p>To update the contact information of the person your organization has designated to receive Charity Top-Rated Seal information, send an e-mail to <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="790d16090b180d1c1d0a1c1815391a11180b100d000e180d1a1157160b1e57">[email&#160;protected]</a> For a faster response, please type "Charity Seal—Contact Information Update" in the subject line so we may direct your e-mail to the appropriate staff member. Be sure to include the new contact person's first and last name, job title, direct phone number, and e-mail address in your message, along with the name of your organization.</p>
+
+&nbsp;
+
+<p><a href="#faq-buttons">Top</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<div id="back-to-top-container" class="container">
+  <div id="back-to-top"><button class="btn btn-primary"><i class="fas fa-arrow-up"></i><br>Top</button></div>
+</div>
+
+        <div id="back-to-top-container" class="container">
+          <div id="back-to-top"><button class="btn btn-primary"><i class="fas fa-arrow-up"></i><br>Top</button></div>
+        </div>
+      </main>
+
+      <footer>
+			<div id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-center">
+							<p class="fh5co-social-icons">
+								<a href="#"><i class="icon-twitter2"></i></a>
+								<a href="https://www.facebook.com/profile.php?id=100075168429960" target="_blank"><i class="icon-facebook2"></i></a>
+								<a href="#"><i class="icon-instagram"></i></a>
+								<a href="#"><i class="icon-dribbble2"></i></a>
+								<a href="#"><i class="icon-youtube"></i></a>
+							</p>
+							<p>Copyright 2023 <a href="{% url 'my-index' %}">Charity</a>. All Rights Reserved. <br>Made with <i class="icon-heart3"></i> by <a href="http://freehtml5.co/" target="_blank">KJC</a> / Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+    </div>
+
+    
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer></script>
+    
+    <script src="https://unpkg.com/vue-recaptcha@^1/dist/vue-recaptcha.min.js"></script>
+    <script type="text/javascript" src="https://www.charitywatch.org/js/charitywatch.js?v1.0"></script>
+
+    
+    
+
+  </div>
+
+</body>
+
+</html>

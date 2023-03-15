@@ -23,5 +23,9 @@ urlpatterns = [
     path('contact/', views.contact, name='my-contact'),
     path('blog/', views.blog, name='my-blog'),
     path('about/', views.about, name='my-about'),
-    path('donate/', views.donate, name='my-donate')
+    path('donate/', views.donate, name='my-donate'),
+    path('faq/', views.faq, name='my-faq'),
+    path('water/', views.water, name='my-water'),
+    path('insert', views.insertData, name='insertData'),
+
 ]
